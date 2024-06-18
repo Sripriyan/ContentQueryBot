@@ -1,0 +1,43 @@
+/* styles.css */
+
+
+h1{
+    color: #63b4cd;
+    font-family:"Courier New", monospace;
+    font-style: italic;
+
+}
+h2{
+    color: #8f6abc;
+}
+
+.stButton>button {
+    background-color: #4bd181;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.stButton>button:hover {
+    background-color: #3aa063;
+}
+
+.stTextInput>div>input {
+    background-color: #502781;
+    color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.stAlert {
+    background-color: #f7e0f0;
+    color: #333333;
+    border-left: 4px solid #4b72d1;
+    border-radius: 5px;
+}
+
+/* Additional specificity to ensure background color changes */
+div[data-testid="stAppViewContainer"] {
+    background-color: #f0dec4;
+    color: #333333;
+}
